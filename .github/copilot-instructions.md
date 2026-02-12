@@ -9,7 +9,7 @@ Review changes as an **Agent Skills expert**, focusing on the **Agent Skills ope
 - **YAML frontmatter requirements**:
  - **`name`**: non-empty, **<= 64 chars**, **lowercase letters/numbers/hyphens only**.
  - **`description`**: non-empty, **<= 1024 chars**, clearly states **what the skill does** and **when to use it**.
-- **Progressive disclosure**: keep `SKILL.md` as the primary entrypoint; move deep dives into `swift-testing/references/`.
+- **Progressive disclosure**: keep `SKILL.md` as the primary entrypoint; move deep dives into `swift-testing-expert/references/`.
 - **Filesystem-based design**: content should be organized so agents can load only what they need (metadata -> instructions -> references).
 
 ### Skill Content Organization (Progressive Disclosure)
@@ -18,11 +18,11 @@ Review changes as an **Agent Skills expert**, focusing on the **Agent Skills ope
 - YAML frontmatter should be concise and trigger-relevant.
 
 **Level 2: Instructions (loaded when triggered)**
-- `swift-testing/SKILL.md` body should contain workflows, checklists, decision trees, and quick references.
+- `swift-testing-expert/SKILL.md` body should contain workflows, checklists, decision trees, and quick references.
 - Avoid turning `SKILL.md` into an encyclopedia; prefer linking out to references.
 
 **Level 3: Resources (loaded as needed)**
-- Topic-specific guidance lives in `swift-testing/references/*.md`.
+- Topic-specific guidance lives in `swift-testing-expert/references/*.md`.
 - References should be linked from `SKILL.md` so agents discover them naturally.
 
 ## Swift Testing Repository Constraints (Keep This Skill "On Mission")
@@ -65,7 +65,7 @@ Review changes as an **Agent Skills expert**, focusing on the **Agent Skills ope
 - **Invalid `name`** (uppercase, underscores, spaces, too long).
 - **Vague `description`** without clear trigger conditions.
 - **Overlong `SKILL.md`** that repeats reference content instead of linking to it.
-- **Unlinked references** in `swift-testing/references/` not discoverable from `SKILL.md`.
+- **Unlinked references** in `swift-testing-expert/references/` not discoverable from `SKILL.md`.
 - **Incorrect XCTest migration claims** (e.g. suggesting unsupported 1:1 API replacements).
 - **Guidance that imports `Testing` in non-test targets**.
 - **Applying `@available` to suite types** or ignoring suite initializer constraints.
