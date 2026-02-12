@@ -20,7 +20,7 @@ func uploadWithinTimeLimit() async throws {
  #expect(true)
 }
 
-@Test(.disabled("Flaky on CI while investigating issue"), .bug("https://github.com/AvdLee/Swift-Testing-Agent-Skill/issues/12"))
+@Test(.disabled("Flaky on CI while investigating issue"), .bug("https://example.com/issues/12"))
 func temporaryDisabledTest() {
  #expect(true)
 }
